@@ -47,6 +47,7 @@ As an example, here's how the `Kubernetes / Views / Overall Summary` dashboard l
 | File name                  | Description | Screenshot |
 |:---------------------------|:------------|:----------:|
 | k8s-addons-prometheus.json | `Global` Overall Summary . | [LINK]() |
+| k8s-logs.json | `Global` Logs . | [LINK]() |
 | k8s-addons-trivy-operator.json | Dashboard for the Trivy Operator from Aqua Security. | [LINK]() |
 | k8s_system_api.json | Dashboard for the API Server Kubernetes component. | [LINK]() |
 | k8s-system-coredns.json    | Show information on the CoreDNS Kubernetes component. | [LINK]() |
@@ -137,15 +138,17 @@ grafana:
   dashboards:
     grafana-dashboards:
       k8s-overall-summary:
-        url: https://raw.githubusercontent.com/helops-io/grafana-dashboards/master/dashboards/k8s-overall-summary.json
+        url: https://raw.githubusercontent.com/helops-io/grafana-dashboards/main/prometheus/k8s-overall-summary.json
+      k8s-logs:
+        url: https://raw.githubusercontent.com/helops-io/grafana-dashboards/main/loki/k8s-logs.json
       k8s-system-api:
-        url: https://raw.githubusercontent.com/helops-io/grafana-dashboards/master/dashboards/k8s-system-api.json
+        url: https://raw.githubusercontent.com/helops-io/grafana-dashboards/main/prometheus/k8s-system-api.json
       k8s-views-global:
-        url: https://raw.githubusercontent.com/helops-io/grafana-dashboards/master/dashboards/k8s-views-global.json
+        url: https://raw.githubusercontent.com/helops-io/grafana-dashboards/main/prometheus/k8s-views-global.json
       k8s-views-nodes:
-        url: https://raw.githubusercontent.com/helops-io/grafana-dashboards/master/dashboards/k8s-views-nodes.json
+        url: https://raw.githubusercontent.com/helops-io/grafana-dashboards/main/prometheus/k8s-views-nodes.json
       k8s-views-pods:
-        url: https://raw.githubusercontent.com/helops-io/grafana-dashboards/master/dashboards/k8s-views-pods.json
+        url: https://raw.githubusercontent.com/helops-io/grafana-dashboards/main/prometheus/k8s-views-pods.json
 ```
 
 ### Install as ConfigMaps
