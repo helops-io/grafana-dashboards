@@ -40,7 +40,7 @@ They also have a `Prometheus Datasource` variable so they will work on a federat
 
 As an example, here's how the `Kubernetes / Views / Overall Summary` dashboard looks like:
 
-![screenshot](https://raw.githubusercontent.com/helops-io/media/main/grafana-dashboards/k8s-overall-summary.png "Kubernetes Overall Summary View Screenshot")
+![screenshot](https://raw.githubusercontent.com/helops-io/docs-assets/main/grafana-dashboards/k8s-overall-summary.png "Kubernetes Overall Summary View Screenshot")
 
 ## Dashboards
 
