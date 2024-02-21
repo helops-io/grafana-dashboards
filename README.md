@@ -95,12 +95,12 @@ Grafana.com dashboard id list:
 
 | Dashboard                          | ID    |
 |:-----------------------------------|:------|
-| k8s_overall_summary.json           |       |
-| k8s_addons_trivy_operator.json     |       |
-| k8s_system_api_server.json         |       |
-| k8s_views_global.json              |       |
-| k8s_views_nodes.json               |       |
-| k8s_views_pods.json                |       |
+| k8s-overall-summary.json           |       |
+| k8s-addons-trivy-operator.json     |       |
+| k8s-system-api-server.json         |       |
+| k8s-views-global.json              |       |
+| k8s-views-nodes.json               |       |
+| k8s-views-pods.json                |       |
 
 ### Install with ArgoCD
 
