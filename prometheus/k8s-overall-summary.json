@@ -1914,7 +1914,7 @@
     ]
   },
   "timezone": "browser",
-  "title": "Overall Summary",
+  "title": "Kubernetes / View / Overall Summary",
   "uid": "k8s_overall_summary",
   "version": 1,
   "weekStart": ""
